@@ -375,6 +375,7 @@ namespace Microsoft.Cci.Writers.CSharp
                 case "System.Reflection.AssemblyDelaySignAttribute": return true;
                 case "System.Runtime.CompilerServices.ExtensionAttribute": return true;
                 case "System.Runtime.CompilerServices.DynamicAttribute": return true;
+                case "System.Runtime.CompilerServices.IteratorStateMachineAttribute": return true;
             }
             return false;
         }
